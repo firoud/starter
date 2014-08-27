@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Large desktop */
+@media (min-width: 1200px) {}
+
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+  body {
+	 background:red;
+	 
+  }
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+
+  body {
+	 background:yellow;
+	 
+  }
+
+}
+
+
+
+@media (max-width: 640px) { 
+
+  body {
+	 background:green;
+	 
+  }
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+
+  body {
+	 background:brown;
+	 
+  }
+
+}
+
+
+@media (max-width: 360px) { 
+
+  body {
+	 background:blue;
+	 
+  }
+
+}
+
+
+
+@media (max-width: 320px) { 
+
+  body {
+	 background: silver;
+	 
+  }
+
+}
+

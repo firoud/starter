@@ -1,0 +1,3 @@
+# Starter WordPress Theme
+
+## Features
